@@ -1,9 +1,12 @@
 {
   "name": "r3f-vite-starter",
+  "homepage": "https://oussamahorrigue.github.io/r3f-portfolio-scroll-animations",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -24,6 +27,7 @@
     "@types/react-dom": "^18.0.10",
     "@vitejs/plugin-react": "^3.1.0",
     "autoprefixer": "^10.4.14",
+    "gh-pages": "^6.0.0",
     "postcss": "^8.4.24",
     "tailwindcss": "^3.3.2",
     "vite": "^4.1.0"
